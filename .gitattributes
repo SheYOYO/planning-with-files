@@ -1,0 +1,6 @@
+# 锁定换行风格，避免跨平台克隆时 git 自动转换引入差异
+# （skill 的 shell/py 脚本对字节敏感，逐字节对账会用到）
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
